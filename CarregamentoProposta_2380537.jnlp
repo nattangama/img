@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="https://apps.acingov.pt/acingovprod/1/lib/proposta_online2/v3/dist/" spec="1.0+">
+  <information>
+    <title>acinGov - Carregamento de Proposta</title>
+    <vendor>ACIN - iCloud Solutions</vendor>
+    <homepage href=""></homepage>
+    <description>acinGov - Carregamento de Proposta</description>
+    <description kind="short">acinGov - Carregamento de Proposta</description>
+    <icon href="logo_plataforma_32.png" width="72" height="72"/>
+    <icon kind="default" href="logo_plataforma_32.png" width="32" height="32"/>
+    <icon kind="splash" href="logo_plataforma_32.png" width="32" height="32"/>
+    <icon kind="shortcut" href="logo_plataforma_32.png" width="32" height="32"/>
+    <icon kind="shortcut" href="logo_plataforma_32.png" width="72" height="72"/>
+  </information>
+  <security>
+    <all-permissions></all-permissions>
+  </security>
+  <update check="always" policy="always"/>
+  <resources>
+    <j2se version="1.6+"/>
+    <jar href="proposta_online2.jar" main="true"/>
+    <jar href="lib/appframework-1.0.3.jar"/>
+    <jar href="lib/swing-worker-1.1.jar"/>
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+    <jar href="lib/not-yet-commons-ssl-0.3.11.jar"/>
+    <jar href="lib/bcprov-jdk16-143.jar"/>
+    <jar href="lib/commons-httpclient-3.1.jar"/>
+    <jar href="lib/junit-3.8.1.jar"/>
+    <jar href="lib/javabase64-1.3.1.jar"/>
+    <jar href="lib/mysql-connector-java-5.1.10-bin.jar"/>
+    <jar href="lib/commons-fileupload-1.4.jar"/>
+    <jar href="lib/commons-codec-1.10.jar"/>
+    <jar href="lib/commons-collections4-4.4.jar"/>
+    <jar href="lib/commons-compress-1.25.0.jar"/>
+    <jar href="lib/commons-io-2.13.0.jar"/>
+    <jar href="lib/commons-logging-1.2.jar"/>
+    <jar href="lib/log4j-api-2.24.3.jar"/>
+    <jar href="lib/poi-5.2.5.jar"/>
+    <jar href="lib/poi-ooxml-5.2.5.jar"/>
+    <jar href="lib/poi-ooxml-full-5.2.5.jar"/>
+    <jar href="lib/xmlbeans-5.2.2.jar"/>
+  </resources>
+  <application-desc main-class="proposta_online2.Proposta_online2App">
+    <argument>aHR0cHM6Ly9hcHBzLmFjaW5nb3YucHQvYWNpbmdvdnByb2QvMS9tYW5hZ2VEb2N1bWVudG9zLnBocD9jYXJyZWdhUHJvcG9zdGE9dHJ1ZSZtYW5hZ2VEb2N1bWVudG89dHJ1ZSZvYnRlbVhNTFByb3Bvc3RhPXRydWUmaWRQcm9wb3N0YT0yMzgwNTM3JmlkUHJvY2Vzc289MTA1NzgwMCZsYW5ndWFnZT1QVCZpZEZvcm5lY2Vkb3I9NTU5NDg=</argument>
+    <argument>aHR0cHM6Ly93d3cuYWNpbmdvdi5wdC8vYWNpbmdvdnByb2QvMS8/bW9kPXByb3Bvc3RhJmFjdGlvbj1kZXRhaWxzUHJvY2VkaW1lbnRvJm9wdGlvbj1kZXRhaWxzUHJvcG9zdGEmaWRQcm9jZXNzbz0xMDU3ODAwJmlkUHJvcG9zdGE9MA==</argument>
+    <argument>MjM4MDUzNw==</argument>
+    <argument>aHR0cHM6Ly9hcHBzLmFjaW5nb3YucHQvYWNpbmdvdnByb2QvMS9tYW5hZ2VEb2N1bWVudG9zLnBocD9tYW5hZ2VEb2N1bWVudG89dHJ1ZSZpZFByb2Nlc3NvPTEwNTc4MDAmaWRUaXBvRG9jdW1lbnRvPTQmaWRQcm9wb3N0YT0yMzgwNTM3JmtleT1NVE00TURZd09EazFPQT09</argument>
+    <argument>MTM4MDYwODk1OA==</argument>
+    <argument>LQ==</argument>
+    <argument>LQ==</argument>
+    <argument>MQ==</argument>
+    <argument>0</argument>
+    <argument>ZWRnZQ==</argument>
+    <argument>LQ==</argument>
+    <argument>LQ==</argument>
+    <argument>MA==</argument>
+  </application-desc>
+</jnlp>
